@@ -1,0 +1,9 @@
+{
+  "assets_path": "../Sources/SpaceEngineers/Content",
+  "manifest_path": "asset-manifest.json",
+  "compatibility_mode": "SteamAssets",
+  "loop_config": {
+    "tick_rate_hz": 60,
+    "max_ticks": 3
+  }
+}
