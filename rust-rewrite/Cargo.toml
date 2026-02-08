@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/se_app",
+  "crates/se_engine",
+  "crates/se_assets",
+]
+
+[workspace.package]
+edition = "2021"
+license = "Proprietary"
+
+[workspace.dependencies]
