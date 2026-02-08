@@ -1,0 +1,12 @@
+[package]
+name = "se_engine"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+
+se_assets = { path = "../se_assets" }
