@@ -31,7 +31,8 @@ impl EngineConfig {
         let tick_rate_hz = std::env::var("SE_TICK_RATE_HZ")
             .ok()
             .and_then(|value| value.parse().ok())
-            .unwrap_or(60);
+            .unwrap_or(60)
+            .max(1);
         let max_ticks = std::env::var("SE_MAX_TICKS")
             .ok()
             .and_then(|value| value.parse().ok())
